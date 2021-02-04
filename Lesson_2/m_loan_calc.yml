@@ -1,0 +1,8 @@
+welcome: "Welcome to the Mortgage Loan Calculator! All you will need to\n
+let us know is your loan amount, loan term, and interest rate.\n
+We'll then give you your estimated monthly payment. Enjoy"
+error_message: "That doesn't look to be a valid input. Please enter a positive whole number."
+float_error_message: "That doesn't look to be a valid input. Please enter a positive decimal number."
+loan_amount_prompt: "Please tell us your loan amount"
+apy_prompt: "Please tell us the interest rate of your loan."
+loan_term_prompt: "Please tell us the term of your loan in years."
