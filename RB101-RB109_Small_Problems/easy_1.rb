@@ -94,13 +94,22 @@ def average(arr)
 end
 
 p average([10,20,30,40])
-=end
+
 
 # Question 9
 
 def sum(int)
-  total = int.to_s.split.reduce()
-  total
+  int.to_s.split(//).map { |item| item.to_i }.sum
 end
 
-p sum(45)
+p sum(123_45_666)
+=end
+# 10
+
+def calculate_bonus(amount,gets_bonus)
+  gets_bonus ? amount / 2 : 0
+end
+
+puts calculate_bonus(2800, true) == 1400
+puts calculate_bonus(1000, false) == 0
+puts calculate_bonus(50000, true) == 25000
