@@ -1,5 +1,5 @@
 # 1
-=begin
+
 flintstones = ["Fred", "Barney", "Wilma", "Betty", "Pebbles", "BamBam"]
 f_hash = {}
 flintstones.each_with_index { |item, index|  f_hash[item] = index }
